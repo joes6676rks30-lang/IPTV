@@ -1,0 +1,62 @@
+playlist.m3u
+#EXTM3U
+
+# ======= FAVORITES =======
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/BBC_News_2022.svg" group-title="Favorites",BBC News
+https://ythls.army/bbcnews.m3u8
+
+#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/CBS_News_logo_%282020%29.svg" group-title="Favorites",CBS News
+https://cbsn-us.cbsnews.com/out/v1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/NBC_News_Now_logo.png" group-title="Favorites",NBC News Now
+https://nbcnewsnow-lh.akamaihd.net/i/nbcnewsnow_1@199302/master.m3u8
+
+#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Sky_News_2023.svg" group-title="Favorites",Sky News
+https://ythls.army/skynews.m3u8
+
+
+# ======= NEWS =======
+#EXTINF:-1 tvg-id="ABCNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/ABC_News_logo_2021.svg" group-title="News",ABC News
+https://abcnews-streams.akamaized.net/hls/live/2023105/abcnews/playlist.m3u8
+
+#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/BBC_News_2022.svg" group-title="News",BBC News
+https://ythls.army/bbcnews.m3u8
+
+#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/CBS_News_logo_%282020%29.svg" group-title="News",CBS News
+https://cbsn-us.cbsnews.com/out/v1/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/NBC_News_Now_logo.png" group-title="News",NBC News Now
+https://nbcnewsnow-lh.akamaihd.net/i/nbcnewsnow_1@199302/master.m3u8
+
+#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Sky_News_2023.svg" group-title="News",Sky News
+https://ythls.army/skynews.m3u8
+
+# ======= SPORTS =======
+#EXTINF:-1 tvg-id="MLBNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5f/MLBNetworkLogo.png" group-title="Sports",MLB Network
+https://sports.example/mlbnetwork.m3u8
+
+#EXTINF:-1 tvg-id="NBATV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/10/NBA_TV_logo.svg" group-title="Sports",NBA TV
+https://sports.example/nbatv.m3u8
+
+#EXTINF:-1 tvg-id="NFLNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2e/NFL_Network_logo.svg" group-title="Sports",NFL Network
+https://sports.example/nflnetwork.m3u8
+
+#EXTINF:-1 tvg-id="NHLNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/NHLNetworkLogo.png" group-title="Sports",NHL Network
+https://sports.example/nhlnetwork.m3u8
+
+# ======= ENTERTAINMENT =======
+#EXTINF:-1 tvg-id="Channel4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Channel_4_2023.svg" group-title="Entertainment",Channel 4
+https://iptv-org.github.io/streams/uk/channel4.m3u8
+
+#EXTINF:-1 tvg-id="ITV1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/ITV1_logo_2022.svg" group-title="Entertainment",ITV 1
+https://iptv-org.github.io/streams/uk/itv1.m3u8
+
+#EXTINF:-1 tvg-id="PBSAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/PBS_logo_2019.svg" group-title="Entertainment",PBS America
+https://iptv-org.github.io/streams/us/pbsamerica.m3u8
+
+# ======= MOVIES =======
+#EXTINF:-1 tvg-id="FilmRiseMovies.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/FilmRise_logo.png" group-title="Movies",FilmRise Movies
+https://dai.google.com/linear/hls/event/filmrise.m3u8
+
+#EXTINF:-1 tvg-id="GravitasMovies.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Gravitas_Ventures_logo.png" group-title="Movies",Gravitas Movies
+https://gravitas.example/playlist.m3u8

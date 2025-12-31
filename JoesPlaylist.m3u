@@ -1,62 +1,85 @@
-joe-iptv.m3u
 #EXTM3U
 
-# ======= FAVORITES =======
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/BBC_News_2022.svg" group-title="Favorites",BBC News
-https://ythls.army/bbcnews.m3u8
-
-#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/CBS_News_logo_%282020%29.svg" group-title="Favorites",CBS News
-https://cbsn-us.cbsnews.com/out/v1/playlist.m3u8
-
-#EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/NBC_News_Now_logo.png" group-title="Favorites",NBC News Now
-https://nbcnewsnow-lh.akamaihd.net/i/nbcnewsnow_1@199302/master.m3u8
-
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Sky_News_2023.svg" group-title="Favorites",Sky News
-https://ythls.army/skynews.m3u8
-
-
-# ======= NEWS =======
-#EXTINF:-1 tvg-id="ABCNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/ABC_News_logo_2021.svg" group-title="News",ABC News
+# --- US NEWS ---
+#EXTINF:-1 group-title="US News",ABC News
 https://abcnews-streams.akamaized.net/hls/live/2023105/abcnews/playlist.m3u8
 
-#EXTINF:-1 tvg-id="BBCNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4e/BBC_News_2022.svg" group-title="News",BBC News
-https://ythls.army/bbcnews.m3u8
+#EXTINF:-1 group-title="US News",CBS News
+https://cbsn-us.cbsnews.com/out/v1/9f6e3f6f0e8d4d0d8d9e8f6f0e8d4d0d/index.m3u8
 
-#EXTINF:-1 tvg-id="CBSNews.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/67/CBS_News_logo_%282020%29.svg" group-title="News",CBS News
-https://cbsn-us.cbsnews.com/out/v1/playlist.m3u8
+#EXTINF:-1 group-title="US News",NBC News Now
+https://nbcnews2.akamaized.net/hls/live/2037096/nbcnews2/playlist.m3u8
 
-#EXTINF:-1 tvg-id="NBCNewsNow.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/NBC_News_Now_logo.png" group-title="News",NBC News Now
-https://nbcnewsnow-lh.akamaihd.net/i/nbcnewsnow_1@199302/master.m3u8
+#EXTINF:-1 group-title="US News",FOX Weather
+https://fox-foxweather-samsungus.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="SkyNews.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3f/Sky_News_2023.svg" group-title="News",Sky News
-https://ythls.army/skynews.m3u8
+#EXTINF:-1 group-title="US News",Newsmax
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 
-# ======= SPORTS =======
-#EXTINF:-1 tvg-id="MLBNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/5f/MLBNetworkLogo.png" group-title="Sports",MLB Network
-https://sports.example/mlbnetwork.m3u8
+#EXTINF:-1 group-title="US News",Bloomberg TV
+https://liveprodapnortheast.global.ssl.fastly.net/btv/desktop/ap_live.m3u8
 
-#EXTINF:-1 tvg-id="NBATV.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/1/10/NBA_TV_logo.svg" group-title="Sports",NBA TV
-https://sports.example/nbatv.m3u8
+#EXTINF:-1 group-title="US News",Cheddar News
+https://live.chdrstatic.com/cbn/live.m3u8
 
-#EXTINF:-1 tvg-id="NFLNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/2/2e/NFL_Network_logo.svg" group-title="Sports",NFL Network
-https://sports.example/nflnetwork.m3u8
 
-#EXTINF:-1 tvg-id="NHLNetwork.us" tvg-logo="https://upload.wikimedia.org/wikipedia/en/0/0f/NHLNetworkLogo.png" group-title="Sports",NHL Network
-https://sports.example/nhlnetwork.m3u8
+# --- US ENTERTAINMENT ---
+#EXTINF:-1 group-title="Entertainment",Pluto Movies
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8e2f3b0e6f8f0009b1b3b7/master.m3u8
 
-# ======= ENTERTAINMENT =======
-#EXTINF:-1 tvg-id="Channel4.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Channel_4_2023.svg" group-title="Entertainment",Channel 4
-https://iptv-org.github.io/streams/uk/channel4.m3u8
+#EXTINF:-1 group-title="Entertainment",Pluto Action
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8e2f3b0e6f8f0009b1b3b8/master.m3u8
 
-#EXTINF:-1 tvg-id="ITV1.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/ITV1_logo_2022.svg" group-title="Entertainment",ITV 1
-https://iptv-org.github.io/streams/uk/itv1.m3u8
+#EXTINF:-1 group-title="Entertainment",Pluto Comedy
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8e2f3b0e6f8f0009b1b3b9/master.m3u8
 
-#EXTINF:-1 tvg-id="PBSAmerica.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5f/PBS_logo_2019.svg" group-title="Entertainment",PBS America
-https://iptv-org.github.io/streams/us/pbsamerica.m3u8
+#EXTINF:-1 group-title="Entertainment",FilmRise Movies
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisemovies/CDN/playlist.m3u8
 
-# ======= MOVIES =======
-#EXTINF:-1 tvg-id="FilmRiseMovies.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5c/FilmRise_logo.png" group-title="Movies",FilmRise Movies
-https://dai.google.com/linear/hls/event/filmrise.m3u8
+#EXTINF:-1 group-title="Entertainment",Scripps News
+https://scrippsnews-lh.akamaihd.net/i/scrippsnews_1@123456/master.m3u8
 
-#EXTINF:-1 tvg-id="GravitasMovies.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6c/Gravitas_Ventures_logo.png" group-title="Movies",Gravitas Movies
-https://gravitas.example/playlist.m3u8
+#EXTINF:-1 group-title="Entertainment",Ion Mystery
+https://dai.google.com/linear/hls/event/ion-mystery/master.m3u8
+
+#EXTINF:-1 group-title="Entertainment",Court TV
+https://courttv-lh.akamaihd.net/i/courttv_1@123456/master.m3u8
+
+
+# --- US SPORTS ---
+#EXTINF:-1 group-title="Sports",Stadium
+https://stadium.sinclair.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports",SportsGrid
+https://sportsgrid-plex.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="Sports",FTF Sports
+https://dai.google.com/linear/hls/event/ftf-sports/master.m3u8
+
+#EXTINF:-1 group-title="Sports",Outside TV
+https://outsidetv-roku.amagi.tv/playlist.m3u8
+
+
+# --- UK NEWS ---
+#EXTINF:-1 group-title="UK News",Sky News
+https://skynews2.akamaized.net/hls/live/100000/skynews/playlist.m3u8
+
+#EXTINF:-1 group-title="UK News",GB News
+https://live-gbnews.simplestreamcdn.com/live/gbnews/playlist.m3u8
+
+#EXTINF:-1 group-title="UK News",Euronews
+https://euronews-en-pb.akamaized.net/hls/live/2028889/euronews-en/playlist.m3u8
+
+
+# --- UK ENTERTAINMENT ---
+#EXTINF:-1 group-title="UK Entertainment",Channel 5
+https://d2hrvno5bw6tg2.cloudfront.net/playlist.m3u8
+
+#EXTINF:-1 group-title="UK Entertainment",Dave
+https://dave-samsunguk.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="UK Entertainment",Drama
+https://drama-samsunguk.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 group-title="UK Entertainment",Yesterday
+https://yesterday-samsunguk.amagi.tv/playlist.m3u8

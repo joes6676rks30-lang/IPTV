@@ -76,60 +76,71 @@ http://example.com/placeholder
 ############################
 #         US NEWS          #
 ############################
-#EXTINF:-1 group-title="US News",ABC News Live
-http://example.com/abcnews
-#EXTINF:-1 group-title="US News",CBS News
-http://example.com/cbsnews
-#EXTINF:-1 group-title="US News",NBC News Now
-http://example.com/nbcnewsnow
-#EXTINF:-1 group-title="US News",FOX Weather
-http://example.com/foxweather
-#EXTINF:-1 group-title="US News",Newsmax
-http://example.com/newsmax
-#EXTINF:-1 group-title="US News",Bloomberg
-http://example.com/bloomberg
-#EXTINF:-1 group-title="US News",Scripps News
-http://example.com/scripps
-#EXTINF:-1 group-title="US News",Cheddar News
-http://example.com/cheddar
-#EXTINF:-1 group-title="US News",C-SPAN
-http://example.com/cspan
-#EXTINF:-1 group-title="US News",C-SPAN 2
-http://example.com/cspan2
-#EXTINF:-1 group-title="US News",C-SPAN 3
-http://example.com/cspan3
-#EXTINF:-1 group-title="US News",NASA TV
-http://example.com/nasa
-#EXTINF:-1 group-title="US News",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="US News",Placeholder 2
-http://example.com/placeholder
+
+#EXTINF:-1 tvg-id="ABCNewsLive.us" group-title="US News",ABC News Live
+https://abcnews.go.com/live/video
+
+#EXTINF:-1 tvg-id="CBSNews.us" group-title="US News",CBS News
+https://cbsn-us.cbsnews.com/live/cbsn-us/stream.m3u8
+
+#EXTINF:-1 tvg-id="NBCNewsNow.us" group-title="US News",NBC News Now
+https://nbcnews2.akamaized.net/hls/live/723426/nbcnewsnow/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FoxWeather.us" group-title="US News",FOX Weather
+https://fox-foxweather-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Newsmax.us" group-title="US News",Newsmax
+https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
+
+#EXTINF:-1 tvg-id="Bloomberg.us" group-title="US News",Bloomberg TV
+https://liveprodapnortheast.global.ssl.fastly.net/apne1/Channel-APNE1/index.m3u8
+
+#EXTINF:-1 tvg-id="ScrippsNews.us" group-title="US News",Scripps News
+https://scrippsnews-us-samsung.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Cheddar.us" group-title="US News",Cheddar News
+https://cheddar.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CSPAN.us" group-title="US News",C-SPAN
+https://cspan1-lh.akamaihd.net/i/cspan1_1@304727/master.m3u8
+
+#EXTINF:-1 tvg-id="CSPAN2.us" group-title="US News",C-SPAN 2
+https://cspan2-lh.akamaihd.net/i/cspan2_1@304728/master.m3u8
+
+#EXTINF:-1 tvg-id="CSPAN3.us" group-title="US News",C-SPAN 3
+https://cspan3-lh.akamaihd.net/i/cspan3_1@304729/master.m3u8
+
+#EXTINF:-1 tvg-id="NASATV.us" group-title="US News",NASA TV Public
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1/master.m3u8
 
 
 ############################
 #         UK NEWS          #
 ############################
-#EXTINF:-1 group-title="UK News",Sky News
-http://example.com/skynews
-#EXTINF:-1 group-title="UK News",GB News
-http://example.com/gbnews
-#EXTINF:-1 group-title="UK News",France 24
-http://example.com/france24
-#EXTINF:-1 group-title="UK News",DW English
-http://example.com/dw
-#EXTINF:-1 group-title="UK News",Euronews
-http://example.com/euronews
-#EXTINF:-1 group-title="UK News",Al Jazeera English
-http://example.com/aljazeera
-#EXTINF:-1 group-title="UK News",TRT World
-http://example.com/trt
-#EXTINF:-1 group-title="UK News",CNA
-http://example.com/cna
-#EXTINF:-1 group-title="UK News",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="UK News",Placeholder 2
-http://example.com/placeholder
 
+#EXTINF:-1 tvg-id="SkyNews.uk" group-title="UK News",Sky News
+https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau/master.m3u8
+
+#EXTINF:-1 tvg-id="GBNews.uk" group-title="UK News",GB News
+https://live-gbnews.simplestreamcdn.com/live/gbnews/bitrate1.isml/manifest.m3u8
+
+#EXTINF:-1 tvg-id="France24English.fr" group-title="UK News",France 24 (English)
+https://static.france24.com/live/F24_EN_HI_HLS/live_web.m3u8
+
+#EXTINF:-1 tvg-id="DWEnglish.de" group-title="UK News",DW English
+https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+
+#EXTINF:-1 tvg-id="EuronewsEnglish.eu" group-title="UK News",Euronews English
+https://euronews-euronews-world-1-nl.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AlJazeeraEnglish.qa" group-title="UK News",Al Jazeera English
+https://live-hls-web-aje.getaj.net/AJE/01.m3u8
+
+#EXTINF:-1 tvg-id="TRTWorld.tr" group-title="UK News",TRT World
+https://tv-trtworld.live.trt.com.tr/master_720.m3u8
+
+#EXTINF:-1 tvg-id="CNA.sg" group-title="UK News",CNA (Channel News Asia)
+https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 
 ############################
 #        US SPORTS         #

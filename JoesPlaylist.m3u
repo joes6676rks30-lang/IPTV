@@ -241,51 +241,57 @@ https://movieland-samsungus.amagi.tv/playlist.m3u8
 ############################
 #     SCRIPTED TV SHOWS    #
 ############################
-#EXTINF:-1 group-title="Scripted TV",FilmRise Sitcoms
-http://example.com/filmrisesitcoms
-#EXTINF:-1 group-title="Scripted TV",FilmRise Classic TV
-http://example.com/filmriseclassic
-#EXTINF:-1 group-title="Scripted TV",FilmRise Family TV
-http://example.com/filmrisefamily
-#EXTINF:-1 group-title="Scripted TV",FilmRise British TV
-http://example.com/filmrisebritish
-#EXTINF:-1 group-title="Scripted TV",Retro TV
-http://example.com/retrotv
-#EXTINF:-1 group-title="Scripted TV",Classic Reruns TV
-http://example.com/classicreruns
-#EXTINF:-1 group-title="Scripted TV",Heartland
-http://example.com/heartland
-#EXTINF:-1 group-title="Scripted TV",Classic Doctor Who
-http://example.com/classicwho
-#EXTINF:-1 group-title="Scripted TV",Classic Sherlock Holmes
-http://example.com/sherlock
-#EXTINF:-1 group-title="Scripted TV",Classic British Drama
-http://example.com/britdrama
-#EXTINF:-1 group-title="Scripted TV",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="Scripted TV",Placeholder 2
-http://example.com/placeholder
-#EXTINF:-1 group-title="Scripted TV",Placeholder 3
-http://example.com/placeholder
+
+#EXTINF:-1 tvg-id="FilmRiseClassicTV.us" group-title="Scripted TV",FilmRise Classic TV
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseclassictv/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FilmRiseSitcoms.us" group-title="Scripted TV",FilmRise Sitcoms
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisesitcoms/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FilmRiseFamilyTV.us" group-title="Scripted TV",FilmRise Family TV
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisefamily/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FilmRiseBritishTV.uk" group-title="Scripted TV",FilmRise British TV
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisebritishtv/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RetroTV.us" group-title="Scripted TV",Retro TV
+https://dai.google.com/linear/hls/event/rtv/rtv.m3u8
+
+#EXTINF:-1 tvg-id="ClassicRerunsTV.us" group-title="Scripted TV",Classic Reruns TV
+https://classicreruns-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Heartland.us" group-title="Scripted TV",Heartland
+https://heartland-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ClassicDoctorWho.uk" group-title="Scripted TV",Classic Doctor Who
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-classicdoctorwho/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="SherlockHolmesClassic.uk" group-title="Scripted TV",Classic Sherlock Holmes
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-sherlockholmes/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ClassicBritishDrama.uk" group-title="Scripted TV",Classic British Drama
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-classicbritishdrama/CDN/playlist.m3u8
+
 
 
 ############################
 #         WEATHER          #
 ############################
-#EXTINF:-1 group-title="Weather",FOX Weather
-http://example.com/foxweather
-#EXTINF:-1 group-title="Weather",WeatherNation
-http://example.com/weathernation
-#EXTINF:-1 group-title="Weather",AccuWeather Now
-http://example.com/accuweather
-#EXTINF:-1 group-title="Weather",NASA Earth Views
-http://example.com/nasaearth
-#EXTINF:-1 group-title="Weather",Local Weather Feed
-http://example.com/localweather
-#EXTINF:-1 group-title="Weather",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="Weather",Placeholder 2
-http://example.com/placeholder
+
+#EXTINF:-1 tvg-id="FoxWeather.us" group-title="Weather",FOX Weather
+https://fox-foxweather-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="WeatherNation.us" group-title="Weather",WeatherNation
+https://weathernationtv.samsung.wurl.com/manifest/playlist.m3u8
+
+#EXTINF:-1 tvg-id="AccuWeatherNow.us" group-title="Weather",AccuWeather Now
+https://accuweather-accuweathernow-1-us.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="NASAEarthViews.us" group-title="Weather",NASA Earth Views
+https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1/master.m3u8
+
+#EXTINF:-1 tvg-id="LocalWeather.us" group-title="Weather",Local Weather Loop
+https://dai.google.com/linear/hls/event/localweather/default/index.m3u8
 
 
 

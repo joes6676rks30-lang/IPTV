@@ -193,38 +193,49 @@ http://example.com/placeholder
 ############################
 #          MOVIES          #
 ############################
-#EXTINF:-1 group-title="Movies",Pluto Movies
-http://example.com/plutomovies
-#EXTINF:-1 group-title="Movies",Pluto Classic Movies
-http://example.com/plutoclassic
-#EXTINF:-1 group-title="Movies",Pluto Action
-http://example.com/plutoaction
-#EXTINF:-1 group-title="Movies",Pluto Westerns
-http://example.com/plutowesterns
-#EXTINF:-1 group-title="Movies",Pluto Sci-Fi
-http://example.com/plutoscifi
-#EXTINF:-1 group-title="Movies",Pluto Family
-http://example.com/plutofamily
-#EXTINF:-1 group-title="Movies",FilmRise Movies
-http://example.com/filmrise
-#EXTINF:-1 group-title="Movies",FilmRise Classic
-http://example.com/filmriseclassic
-#EXTINF:-1 group-title="Movies",FilmRise Action
-http://example.com/filmriseaction
-#EXTINF:-1 group-title="Movies",FilmRise Western
-http://example.com/filmisewestern
-#EXTINF:-1 group-title="Movies",RetroCrush
-http://example.com/retrocrush
-#EXTINF:-1 group-title="Movies",Shout Factory TV
-http://example.com/shout
-#EXTINF:-1 group-title="Movies",MovieSphere
-http://example.com/moviesphere
-#EXTINF:-1 group-title="Movies",Movieland TV
-http://example.com/movieland
-#EXTINF:-1 group-title="Movies",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="Movies",Placeholder 2
-http://example.com/placeholder
+
+#EXTINF:-1 tvg-id="PlutoMovies.us" group-title="Movies",Pluto Movies
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e1/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoClassicMovies.us" group-title="Movies",Pluto Classic Movies
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e2/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoAction.us" group-title="Movies",Pluto Action
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e3/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoWesterns.us" group-title="Movies",Pluto Westerns
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e4/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoSciFi.us" group-title="Movies",Pluto Sci-Fi
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e5/master.m3u8
+
+#EXTINF:-1 tvg-id="PlutoFamily.us" group-title="Movies",Pluto Family
+https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e6/master.m3u8
+
+#EXTINF:-1 tvg-id="FilmRiseMovies.us" group-title="Movies",FilmRise Movies
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisemovies/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FilmRiseClassic.us" group-title="Movies",FilmRise Classic
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseclassic/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FilmRiseAction.us" group-title="Movies",FilmRise Action
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseaction/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FilmRiseWestern.us" group-title="Movies",FilmRise Western
+https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisewestern/CDN/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RetroCrush.us" group-title="Movies",RetroCrush
+https://digitalstreams1-rtcrush-1-us.xumo.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ShoutFactory.us" group-title="Movies",Shout! Factory TV
+https://shoutfactory-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="MovieSphere.us" group-title="Movies",MovieSphere
+https://moviesphere-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Movieland.us" group-title="Movies",Movieland TV
+https://movieland-samsungus.amagi.tv/playlist.m3u8
+
 
 
 ############################

@@ -1,85 +1,271 @@
+
 #EXTM3U
 
-# --- US NEWS ---
-#EXTINF:-1 tvg-id="abcnews.us" tvg-name="ABC News" group-title="US News",ABC News
-https://abcnews-streams.akamaized.net/hls/live/2023105/abcnews/playlist.m3u8
-
-#EXTINF:-1 tvg-id="cbsnews.us" tvg-name="CBS News" group-title="US News",CBS News
-https://cbsn-us.cbsnews.com/out/v1/9f6e3f6f0e8d4d0d8d9e8f6f0e8d4d0d/index.m3u8
-
-#EXTINF:-1 tvg-id="nbcnewsnow.us" tvg-name="NBC News Now" group-title="US News",NBC News Now
-https://nbcnews2.akamaized.net/hls/live/2037096/nbcnews2/playlist.m3u8
-
-#EXTINF:-1 tvg-id="foxweather.us" tvg-name="FOX Weather" group-title="US News",FOX Weather
-https://fox-foxweather-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="newsmax.us" tvg-name="Newsmax" group-title="US News",Newsmax
-https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
-
-#EXTINF:-1 tvg-id="bloomberg.us" tvg-name="Bloomberg TV" group-title="US News",Bloomberg TV
-https://liveprodapnortheast.global.ssl.fastly.net/btv/desktop/ap_live.m3u8
-
-#EXTINF:-1 tvg-id="cheddarnews.us" tvg-name="Cheddar News" group-title="US News",Cheddar News
-https://live.chdrstatic.com/cbn/live.m3u8
+############################
+#        FAVORITES         #
+############################
+#EXTINF:-1 group-title="Favorites",Favorite Placeholder 1
+http://example.com/placeholder1
+#EXTINF:-1 group-title="Favorites",Favorite Placeholder 2
+http://example.com/placeholder2
+#EXTINF:-1 group-title="Favorites",Favorite Placeholder 3
+http://example.com/placeholder3
 
 
-# --- US ENTERTAINMENT ---
-#EXTINF:-1 tvg-id="plutomovies.us" tvg-name="Pluto Movies" group-title="Entertainment",Pluto Movies
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8e2f3b0e6f8f0009b1b3b7/master.m3u8
+############################
+#        US LOCALS         #
+############################
 
-#EXTINF:-1 tvg-id="plutoaction.us" tvg-name="Pluto Action" group-title="Entertainment",Pluto Action
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8e2f3b0e6f8f0009b1b3b8/master.m3u8
+########## ALBUQUERQUE ##########
+#EXTINF:-1 group-title="US Locals - Albuquerque",KOB Weather/News
+http://example.com/kob
+#EXTINF:-1 group-title="US Locals - Albuquerque",KRQE Weather/News
+http://example.com/krqe
+#EXTINF:-1 group-title="US Locals - Albuquerque",KOAT Weather/News
+http://example.com/koat
+#EXTINF:-1 group-title="US Locals - Albuquerque",New Mexico PBS
+http://example.com/nmpbs
+#EXTINF:-1 group-title="US Locals - Albuquerque",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="US Locals - Albuquerque",Placeholder 2
+http://example.com/placeholder
 
-#EXTINF:-1 tvg-id="plutocomedy.us" tvg-name="Pluto Comedy" group-title="Entertainment",Pluto Comedy
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8e2f3b0e6f8f0009b1b3b9/master.m3u8
+########## DALLAS / FORT WORTH ##########
+#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",WFAA Weather/News
+http://example.com/wfaa
+#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",NBC 5 DFW Weather/News
+http://example.com/nbcdfw
+#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",FOX 4 Weather/News
+http://example.com/fox4
+#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",KERA PBS
+http://example.com/kera
+#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",Placeholder 2
+http://example.com/placeholder
 
-#EXTINF:-1 tvg-id="filmrise.us" tvg-name="FilmRise Movies" group-title="Entertainment",FilmRise Movies
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisemovies/CDN/playlist.m3u8
+########## DENVER ##########
+#EXTINF:-1 group-title="US Locals - Denver",Denver7 Weather/News
+http://example.com/denver7
+#EXTINF:-1 group-title="US Locals - Denver",9News Weather/News
+http://example.com/9news
+#EXTINF:-1 group-title="US Locals - Denver",FOX31 Weather/News
+http://example.com/fox31
+#EXTINF:-1 group-title="US Locals - Denver",Rocky Mountain PBS
+http://example.com/rmpbs
+#EXTINF:-1 group-title="US Locals - Denver",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="US Locals - Denver",Placeholder 2
+http://example.com/placeholder
 
-#EXTINF:-1 tvg-id="scrippsnews.us" tvg-name="Scripps News" group-title="Entertainment",Scripps News
-https://scrippsnews-lh.akamaihd.net/i/scrippsnews_1@123456/master.m3u8
-
-#EXTINF:-1 tvg-id="ionmystery.us" tvg-name="Ion Mystery" group-title="Entertainment",Ion Mystery
-https://dai.google.com/linear/hls/event/ion-mystery/master.m3u8
-
-#EXTINF:-1 tvg-id="courttv.us" tvg-name="Court TV" group-title="Entertainment",Court TV
-https://courttv-lh.akamaihd.net/i/courttv_1@123456/master.m3u8
-
-
-# --- US SPORTS ---
-#EXTINF:-1 tvg-id="stadium.us" tvg-name="Stadium" group-title="Sports",Stadium
-https://stadium.sinclair.wurl.com/manifest/playlist.m3u8
-
-#EXTINF:-1 tvg-id="sportsgrid.us" tvg-name="SportsGrid" group-title="Sports",SportsGrid
-https://sportsgrid-plex.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ftfsports.us" tvg-name="FTF Sports" group-title="Sports",FTF Sports
-https://dai.google.com/linear/hls/event/ftf-sports/master.m3u8
-
-#EXTINF:-1 tvg-id="outsidetv.us" tvg-name="Outside TV" group-title="Sports",Outside TV
-https://outsidetv-roku.amagi.tv/playlist.m3u8
-
-
-# --- UK NEWS ---
-#EXTINF:-1 tvg-id="skynews.uk" tvg-name="Sky News" group-title="UK News",Sky News
-https://skynews2.akamaized.net/hls/live/100000/skynews/playlist.m3u8
-
-#EXTINF:-1 tvg-id="gbnews.uk" tvg-name="GB News" group-title="UK News",GB News
-https://live-gbnews.simplestreamcdn.com/live/gbnews/playlist.m3u8
-
-#EXTINF:-1 tvg-id="euronews.uk" tvg-name="Euronews" group-title="UK News",Euronews
-https://euronews-en-pb.akamaized.net/hls/live/2028889/euronews-en/playlist.m3u8
+########## HOUSTON ##########
+#EXTINF:-1 group-title="US Locals - Houston",KHOU Weather/News
+http://example.com/khou
+#EXTINF:-1 group-title="US Locals - Houston",ABC13 Weather/News
+http://example.com/abc13
+#EXTINF:-1 group-title="US Locals - Houston",FOX26 Weather/News
+http://example.com/fox26
+#EXTINF:-1 group-title="US Locals - Houston",Houston PBS
+http://example.com/houstonpbs
+#EXTINF:-1 group-title="US Locals - Houston",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="US Locals - Houston",Placeholder 2
+http://example.com/placeholder
 
 
-# --- UK ENTERTAINMENT ---
-#EXTINF:-1 tvg-id="channel5.uk" tvg-name="Channel 5" group-title="UK Entertainment",Channel 5
-https://d2hrvno5bw6tg2.cloudfront.net/playlist.m3u8
+############################
+#         US NEWS          #
+############################
+#EXTINF:-1 group-title="US News",ABC News Live
+http://example.com/abcnews
+#EXTINF:-1 group-title="US News",CBS News
+http://example.com/cbsnews
+#EXTINF:-1 group-title="US News",NBC News Now
+http://example.com/nbcnewsnow
+#EXTINF:-1 group-title="US News",FOX Weather
+http://example.com/foxweather
+#EXTINF:-1 group-title="US News",Newsmax
+http://example.com/newsmax
+#EXTINF:-1 group-title="US News",Bloomberg
+http://example.com/bloomberg
+#EXTINF:-1 group-title="US News",Scripps News
+http://example.com/scripps
+#EXTINF:-1 group-title="US News",Cheddar News
+http://example.com/cheddar
+#EXTINF:-1 group-title="US News",C-SPAN
+http://example.com/cspan
+#EXTINF:-1 group-title="US News",C-SPAN 2
+http://example.com/cspan2
+#EXTINF:-1 group-title="US News",C-SPAN 3
+http://example.com/cspan3
+#EXTINF:-1 group-title="US News",NASA TV
+http://example.com/nasa
+#EXTINF:-1 group-title="US News",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="US News",Placeholder 2
+http://example.com/placeholder
 
-#EXTINF:-1 tvg-id="dave.uk" tvg-name="Dave" group-title="UK Entertainment",Dave
-https://dave-samsunguk.amagi.tv/playlist.m3u8
 
-#EXTINF:-1 tvg-id="drama.uk" tvg-name="Drama" group-title="UK Entertainment",Drama
-https://drama-samsunguk.amagi.tv/playlist.m3u8
+############################
+#         UK NEWS          #
+############################
+#EXTINF:-1 group-title="UK News",Sky News
+http://example.com/skynews
+#EXTINF:-1 group-title="UK News",GB News
+http://example.com/gbnews
+#EXTINF:-1 group-title="UK News",France 24
+http://example.com/france24
+#EXTINF:-1 group-title="UK News",DW English
+http://example.com/dw
+#EXTINF:-1 group-title="UK News",Euronews
+http://example.com/euronews
+#EXTINF:-1 group-title="UK News",Al Jazeera English
+http://example.com/aljazeera
+#EXTINF:-1 group-title="UK News",TRT World
+http://example.com/trt
+#EXTINF:-1 group-title="UK News",CNA
+http://example.com/cna
+#EXTINF:-1 group-title="UK News",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="UK News",Placeholder 2
+http://example.com/placeholder
 
-#EXTINF:-1 tvg-id="yesterday.uk" tvg-name="Yesterday" group-title="UK Entertainment",Yesterday
-https://yesterday-samsunguk.amagi.tv/playlist.m3u8
+
+############################
+#        US SPORTS         #
+############################
+#EXTINF:-1 group-title="US Sports",Stadium
+http://example.com/stadium
+#EXTINF:-1 group-title="US Sports",CBS Sports HQ
+http://example.com/cbssports
+#EXTINF:-1 group-title="US Sports",SportsGrid
+http://example.com/sportsgrid
+#EXTINF:-1 group-title="US Sports",FTF
+http://example.com/ftf
+#EXTINF:-1 group-title="US Sports",Outside TV
+http://example.com/outside
+#EXTINF:-1 group-title="US Sports",Red Bull TV
+http://example.com/redbull
+#EXTINF:-1 group-title="US Sports",ACC Digital Network
+http://example.com/acc
+#EXTINF:-1 group-title="US Sports",Pac-12 Insider
+http://example.com/pac12
+#EXTINF:-1 group-title="US Sports",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="US Sports",Placeholder 2
+http://example.com/placeholder
+
+
+############################
+#         SOCCER           #
+############################
+#EXTINF:-1 group-title="Soccer",FIFA+
+http://example.com/fifa
+#EXTINF:-1 group-title="Soccer",FIFA World Cup Highlights
+http://example.com/fifahighlights
+#EXTINF:-1 group-title="Soccer",beIN Sports XTRA
+http://example.com/beinxtra
+#EXTINF:-1 group-title="Soccer",Real Madrid TV
+http://example.com/rmtv
+#EXTINF:-1 group-title="Soccer",Barcelona TV+
+http://example.com/barcatv
+#EXTINF:-1 group-title="Soccer",Manchester City TV
+http://example.com/mancity
+#EXTINF:-1 group-title="Soccer",UEFA TV Free
+http://example.com/uefa
+#EXTINF:-1 group-title="Soccer",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="Soccer",Placeholder 2
+http://example.com/placeholder
+
+
+############################
+#          MOVIES          #
+############################
+#EXTINF:-1 group-title="Movies",Pluto Movies
+http://example.com/plutomovies
+#EXTINF:-1 group-title="Movies",Pluto Classic Movies
+http://example.com/plutoclassic
+#EXTINF:-1 group-title="Movies",Pluto Action
+http://example.com/plutoaction
+#EXTINF:-1 group-title="Movies",Pluto Westerns
+http://example.com/plutowesterns
+#EXTINF:-1 group-title="Movies",Pluto Sci-Fi
+http://example.com/plutoscifi
+#EXTINF:-1 group-title="Movies",Pluto Family
+http://example.com/plutofamily
+#EXTINF:-1 group-title="Movies",FilmRise Movies
+http://example.com/filmrise
+#EXTINF:-1 group-title="Movies",FilmRise Classic
+http://example.com/filmriseclassic
+#EXTINF:-1 group-title="Movies",FilmRise Action
+http://example.com/filmriseaction
+#EXTINF:-1 group-title="Movies",FilmRise Western
+http://example.com/filmisewestern
+#EXTINF:-1 group-title="Movies",RetroCrush
+http://example.com/retrocrush
+#EXTINF:-1 group-title="Movies",Shout Factory TV
+http://example.com/shout
+#EXTINF:-1 group-title="Movies",MovieSphere
+http://example.com/moviesphere
+#EXTINF:-1 group-title="Movies",Movieland TV
+http://example.com/movieland
+#EXTINF:-1 group-title="Movies",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="Movies",Placeholder 2
+http://example.com/placeholder
+
+
+############################
+#     SCRIPTED TV SHOWS    #
+############################
+#EXTINF:-1 group-title="Scripted TV",FilmRise Sitcoms
+http://example.com/filmrisesitcoms
+#EXTINF:-1 group-title="Scripted TV",FilmRise Classic TV
+http://example.com/filmriseclassic
+#EXTINF:-1 group-title="Scripted TV",FilmRise Family TV
+http://example.com/filmrisefamily
+#EXTINF:-1 group-title="Scripted TV",FilmRise British TV
+http://example.com/filmrisebritish
+#EXTINF:-1 group-title="Scripted TV",Retro TV
+http://example.com/retrotv
+#EXTINF:-1 group-title="Scripted TV",Classic Reruns TV
+http://example.com/classicreruns
+#EXTINF:-1 group-title="Scripted TV",Heartland
+http://example.com/heartland
+#EXTINF:-1 group-title="Scripted TV",Classic Doctor Who
+http://example.com/classicwho
+#EXTINF:-1 group-title="Scripted TV",Classic Sherlock Holmes
+http://example.com/sherlock
+#EXTINF:-1 group-title="Scripted TV",Classic British Drama
+http://example.com/britdrama
+#EXTINF:-1 group-title="Scripted TV",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="Scripted TV",Placeholder 2
+http://example.com/placeholder
+#EXTINF:-1 group-title="Scripted TV",Placeholder 3
+http://example.com/placeholder
+
+
+############################
+#         WEATHER          #
+############################
+#EXTINF:-1 group-title="Weather",FOX Weather
+http://example.com/foxweather
+#EXTINF:-1 group-title="Weather",WeatherNation
+http://example.com/weathernation
+#EXTINF:-1 group-title="Weather",AccuWeather Now
+http://example.com/accuweather
+#EXTINF:-1 group-title="Weather",NASA Earth Views
+http://example.com/nasaearth
+#EXTINF:-1 group-title="Weather",Local Weather Feed
+http://example.com/localweather
+#EXTINF:-1 group-title="Weather",Placeholder 1
+http://example.com/placeholder
+#EXTINF:-1 group-title="Weather",Placeholder 2
+http://example.com/placeholder
+
+
+
+
+

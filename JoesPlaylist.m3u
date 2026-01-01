@@ -13,64 +13,32 @@ http://example.com/placeholder3
 
 
 ############################
-#        US LOCALS         #
+#        US SPORTS         #
 ############################
 
-########## ALBUQUERQUE ##########
-#EXTINF:-1 group-title="US Locals - Albuquerque",KOB Weather/News
-http://example.com/kob
-#EXTINF:-1 group-title="US Locals - Albuquerque",KRQE Weather/News
-http://example.com/krqe
-#EXTINF:-1 group-title="US Locals - Albuquerque",KOAT Weather/News
-http://example.com/koat
-#EXTINF:-1 group-title="US Locals - Albuquerque",New Mexico PBS
-http://example.com/nmpbs
-#EXTINF:-1 group-title="US Locals - Albuquerque",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="US Locals - Albuquerque",Placeholder 2
-http://example.com/placeholder
+#EXTINF:-1 tvg-id="Stadium.us" group-title="US Sports",Stadium
+https://stadium-samsungus.amagi.tv/playlist.m3u8
 
-########## DALLAS / FORT WORTH ##########
-#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",WFAA Weather/News
-http://example.com/wfaa
-#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",NBC 5 DFW Weather/News
-http://example.com/nbcdfw
-#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",FOX 4 Weather/News
-http://example.com/fox4
-#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",KERA PBS
-http://example.com/kera
-#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="US Locals - Dallas/Fort Worth",Placeholder 2
-http://example.com/placeholder
+#EXTINF:-1 tvg-id="CBSSportsHQ.us" group-title="US Sports",CBS Sports HQ
+https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
 
-########## DENVER ##########
-#EXTINF:-1 group-title="US Locals - Denver",Denver7 Weather/News
-http://example.com/denver7
-#EXTINF:-1 group-title="US Locals - Denver",9News Weather/News
-http://example.com/9news
-#EXTINF:-1 group-title="US Locals - Denver",FOX31 Weather/News
-http://example.com/fox31
-#EXTINF:-1 group-title="US Locals - Denver",Rocky Mountain PBS
-http://example.com/rmpbs
-#EXTINF:-1 group-title="US Locals - Denver",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="US Locals - Denver",Placeholder 2
-http://example.com/placeholder
+#EXTINF:-1 tvg-id="SportsGrid.us" group-title="US Sports",SportsGrid
+https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
 
-########## HOUSTON ##########
-#EXTINF:-1 group-title="US Locals - Houston",KHOU Weather/News
-http://example.com/khou
-#EXTINF:-1 group-title="US Locals - Houston",ABC13 Weather/News
-http://example.com/abc13
-#EXTINF:-1 group-title="US Locals - Houston",FOX26 Weather/News
-http://example.com/fox26
-#EXTINF:-1 group-title="US Locals - Houston",Houston PBS
-http://example.com/houstonpbs
-#EXTINF:-1 group-title="US Locals - Houston",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="US Locals - Houston",Placeholder 2
-http://example.com/placeholder
+#EXTINF:-1 tvg-id="FTF.us" group-title="US Sports",For The Fans (FTF)
+https://ftf-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="OutsideTV.us" group-title="US Sports",Outside TV
+https://outsidetv-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RedBullTV.us" group-title="US Sports",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+
+#EXTINF:-1 tvg-id="ACCDigital.us" group-title="US Sports",ACC Digital Network
+https://accdn-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Pac12Insider.us" group-title="US Sports",Pac-12 Insider
+https://pac12-samsungus.amagi.tv/playlist.m3u8
 
 
 ############################

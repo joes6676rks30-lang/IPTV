@@ -145,26 +145,30 @@ https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u
 ############################
 #        US SPORTS         #
 ############################
-#EXTINF:-1 group-title="US Sports",Stadium
-http://example.com/stadium
-#EXTINF:-1 group-title="US Sports",CBS Sports HQ
-http://example.com/cbssports
-#EXTINF:-1 group-title="US Sports",SportsGrid
-http://example.com/sportsgrid
-#EXTINF:-1 group-title="US Sports",FTF
-http://example.com/ftf
-#EXTINF:-1 group-title="US Sports",Outside TV
-http://example.com/outside
-#EXTINF:-1 group-title="US Sports",Red Bull TV
-http://example.com/redbull
-#EXTINF:-1 group-title="US Sports",ACC Digital Network
-http://example.com/acc
-#EXTINF:-1 group-title="US Sports",Pac-12 Insider
-http://example.com/pac12
-#EXTINF:-1 group-title="US Sports",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="US Sports",Placeholder 2
-http://example.com/placeholder
+
+#EXTINF:-1 tvg-id="Stadium.us" group-title="US Sports",Stadium
+https://stadium-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="CBSSportsHQ.us" group-title="US Sports",CBS Sports HQ
+https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
+
+#EXTINF:-1 tvg-id="SportsGrid.us" group-title="US Sports",SportsGrid
+https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="FTF.us" group-title="US Sports",For The Fans (FTF)
+https://ftf-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="OutsideTV.us" group-title="US Sports",Outside TV
+https://outsidetv-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RedBullTV.us" group-title="US Sports",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+
+#EXTINF:-1 tvg-id="ACCDigital.us" group-title="US Sports",ACC Digital Network
+https://accdn-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Pac12Insider.us" group-title="US Sports",Pac-12 Insider
+https://pac12-samsungus.amagi.tv/playlist.m3u8
 
 
 ############################

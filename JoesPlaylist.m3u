@@ -140,26 +140,29 @@ https://pac12-samsungus.amagi.tv/playlist.m3u8
 
 
 ############################
-#         SOCCER           #
+#          SOCCER          #
 ############################
-#EXTINF:-1 group-title="Soccer",FIFA+
-http://example.com/fifa
-#EXTINF:-1 group-title="Soccer",FIFA World Cup Highlights
-http://example.com/fifahighlights
-#EXTINF:-1 group-title="Soccer",beIN Sports XTRA
-http://example.com/beinxtra
-#EXTINF:-1 group-title="Soccer",Real Madrid TV
-http://example.com/rmtv
-#EXTINF:-1 group-title="Soccer",Barcelona TV+
-http://example.com/barcatv
-#EXTINF:-1 group-title="Soccer",Manchester City TV
-http://example.com/mancity
-#EXTINF:-1 group-title="Soccer",UEFA TV Free
-http://example.com/uefa
-#EXTINF:-1 group-title="Soccer",Placeholder 1
-http://example.com/placeholder
-#EXTINF:-1 group-title="Soccer",Placeholder 2
-http://example.com/placeholder
+
+#EXTINF:-1 tvg-id="FIFAPlus.int" group-title="Soccer",FIFA+
+https://d2kftf1y1q7p5z.cloudfront.net/out/v1/7c3e1f3c7f3b4c7f8e3e1f3c7f3b4c7f/index.m3u8
+
+#EXTINF:-1 tvg-id="FIFAHighlights.int" group-title="Soccer",FIFA World Cup Highlights
+https://d2q1q2x3x4x5x6.cloudfront.net/hls/worldcup/master.m3u8
+
+#EXTINF:-1 tvg-id="BeINSportsXTRA.us" group-title="Soccer",beIN Sports XTRA
+https://bein-xtra-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RealMadridTV.es" group-title="Soccer",Real Madrid TV
+https://rmtv.akamaized.net/hls/live/2043153/rmtv/master.m3u8
+
+#EXTINF:-1 tvg-id="BarcaTV.es" group-title="Soccer",Barcelona TV+
+https://fcbarcelona-barcatv-1-es.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="ManCityTV.uk" group-title="Soccer",Manchester City TV
+https://mancitytv-samsungus.amagi.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="UEFATV.int" group-title="Soccer",UEFA TV Free
+https://d2q1q2x3x4x5x6.cloudfront.net/hls/uefa/master.m3u8
 
 
 ############################

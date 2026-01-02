@@ -74,7 +74,7 @@ https://cspan3-lh.akamaihd.net/i/cspan3_1@304729/master.m3u8
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1/master.m3u8
 
 #EXTINF:-1 tvg-id-"Fox-News.us" group-title-"US News",tvpass.org
-https://tvpass.org/channels/fox-news
+https://tvpass.org/channels/fox-news/live/stream.m38u
 
 
 ############################

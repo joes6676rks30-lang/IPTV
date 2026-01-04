@@ -1,9 +1,6 @@
 
 #EXTM3U
 
-
-
-
 ############################
 #        US SPORTS         #
 ############################
@@ -74,7 +71,6 @@ https://cspan3-lh.akamaihd.net/i/cspan3_1@304729/master.m3u8
 https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1/master.m3u8
 
 
-
 ############################
 #         UK NEWS          #
 ############################
@@ -103,34 +99,6 @@ https://tv-trtworld.live.trt.com.tr/master_720.m3u8
 #EXTINF:-1 tvg-id="CNA.sg" group-title="UK News",CNA (Channel News Asia)
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
 
-############################
-#        US SPORTS         #
-############################
-
-#EXTINF:-1 tvg-id="Stadium.us" group-title="US Sports",Stadium
-https://stadium-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="CBSSportsHQ.us" group-title="US Sports",CBS Sports HQ
-https://cbsnewshd-lh.akamaihd.net/i/CBSNHD_7@199302/master.m3u8
-
-#EXTINF:-1 tvg-id="SportsGrid.us" group-title="US Sports",SportsGrid
-https://sportsgrid-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FTF.us" group-title="US Sports",For The Fans (FTF)
-https://ftf-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="OutsideTV.us" group-title="US Sports",Outside TV
-https://outsidetv-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RedBullTV.us" group-title="US Sports",Red Bull TV
-https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
-
-#EXTINF:-1 tvg-id="ACCDigital.us" group-title="US Sports",ACC Digital Network
-https://accdn-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Pac12Insider.us" group-title="US Sports",Pac-12 Insider
-https://pac12-samsungus.amagi.tv/playlist.m3u8
-
 
 ############################
 #          SOCCER          #
@@ -156,112 +124,3 @@ https://mancitytv-samsungus.amagi.tv/playlist.m3u8
 
 #EXTINF:-1 tvg-id="UEFATV.int" group-title="Soccer",UEFA TV Free
 https://d2q1q2x3x4x5x6.cloudfront.net/hls/uefa/master.m3u8
-
-
-############################
-#          MOVIES          #
-############################
-
-#EXTINF:-1 tvg-id="PlutoMovies.us" group-title="Movies",Pluto Movies
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e1/master.m3u8
-
-#EXTINF:-1 tvg-id="PlutoClassicMovies.us" group-title="Movies",Pluto Classic Movies
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e2/master.m3u8
-
-#EXTINF:-1 tvg-id="PlutoAction.us" group-title="Movies",Pluto Action
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e3/master.m3u8
-
-#EXTINF:-1 tvg-id="PlutoWesterns.us" group-title="Movies",Pluto Westerns
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e4/master.m3u8
-
-#EXTINF:-1 tvg-id="PlutoSciFi.us" group-title="Movies",Pluto Sci-Fi
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e5/master.m3u8
-
-#EXTINF:-1 tvg-id="PlutoFamily.us" group-title="Movies",Pluto Family
-https://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5d8d1f5b2b5a5e00098f12e6/master.m3u8
-
-#EXTINF:-1 tvg-id="FilmRiseMovies.us" group-title="Movies",FilmRise Movies
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisemovies/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FilmRiseClassic.us" group-title="Movies",FilmRise Classic
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseclassic/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FilmRiseAction.us" group-title="Movies",FilmRise Action
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseaction/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FilmRiseWestern.us" group-title="Movies",FilmRise Western
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisewestern/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RetroCrush.us" group-title="Movies",RetroCrush
-https://digitalstreams1-rtcrush-1-us.xumo.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ShoutFactory.us" group-title="Movies",Shout! Factory TV
-https://shoutfactory-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="MovieSphere.us" group-title="Movies",MovieSphere
-https://moviesphere-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Movieland.us" group-title="Movies",Movieland TV
-https://movieland-samsungus.amagi.tv/playlist.m3u8
-
-
-
-############################
-#     SCRIPTED TV SHOWS    #
-############################
-
-#EXTINF:-1 tvg-id="FilmRiseClassicTV.us" group-title="Scripted TV",FilmRise Classic TV
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmriseclassictv/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FilmRiseSitcoms.us" group-title="Scripted TV",FilmRise Sitcoms
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisesitcoms/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FilmRiseFamilyTV.us" group-title="Scripted TV",FilmRise Family TV
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisefamily/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="FilmRiseBritishTV.uk" group-title="Scripted TV",FilmRise British TV
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-filmrisebritishtv/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="RetroTV.us" group-title="Scripted TV",Retro TV
-https://dai.google.com/linear/hls/event/rtv/rtv.m3u8
-
-#EXTINF:-1 tvg-id="ClassicRerunsTV.us" group-title="Scripted TV",Classic Reruns TV
-https://classicreruns-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="Heartland.us" group-title="Scripted TV",Heartland
-https://heartland-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ClassicDoctorWho.uk" group-title="Scripted TV",Classic Doctor Who
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-classicdoctorwho/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="SherlockHolmesClassic.uk" group-title="Scripted TV",Classic Sherlock Holmes
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-sherlockholmes/CDN/playlist.m3u8
-
-#EXTINF:-1 tvg-id="ClassicBritishDrama.uk" group-title="Scripted TV",Classic British Drama
-https://dai2.xumo.com/amagi_hls_data_xumo1212A-classicbritishdrama/CDN/playlist.m3u8
-
-
-
-############################
-#         WEATHER          #
-############################
-
-#EXTINF:-1 tvg-id="FoxWeather.us" group-title="Weather",FOX Weather
-https://fox-foxweather-samsungus.amagi.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="WeatherNation.us" group-title="Weather",WeatherNation
-https://weathernationtv.samsung.wurl.com/manifest/playlist.m3u8
-
-#EXTINF:-1 tvg-id="AccuWeatherNow.us" group-title="Weather",AccuWeather Now
-https://accuweather-accuweathernow-1-us.samsung.wurl.tv/playlist.m3u8
-
-#EXTINF:-1 tvg-id="NASAEarthViews.us" group-title="Weather",NASA Earth Views
-https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1/master.m3u8
-
-#EXTINF:-1 tvg-id="LocalWeather.us" group-title="Weather",Local Weather Loop
-https://dai.google.com/linear/hls/event/localweather/default/index.m3u8
-
-
-
-
-
